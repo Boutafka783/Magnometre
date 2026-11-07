@@ -15,7 +15,6 @@ jobs:
 
       - name: Generate Keystore and Print Base64
         run: |
-          # بيانات ملف التوقيع (يمكنك تغيير كلمات المرور إذا أردت)
           ALIAS="gradiometer"
           PASS="GradiometerPass123!"
           FILENAME="gradiometer.jks"
